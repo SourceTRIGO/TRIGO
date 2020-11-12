@@ -9635,9 +9635,10 @@ Text = [[
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م1' then
 if not Mod(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالادمنيه\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9645,11 +9646,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help1_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫ اوامر الحمايه اتبع مايلي ...
 •━━━━━━━━━━━━━•ٴ
@@ -9683,14 +9684,15 @@ Text = [[
 ❃∫ الجهات
 ❃∫ الاشعارات
 •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م2' then
 if not Mod(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالادمنيه\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9698,11 +9700,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help2_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫ اهلا بك عزيزي …
 ❃∫اوامر تفعيل وتعطيل …
@@ -9727,14 +9729,15 @@ Text = [[
 ❃∫اوامر التحشيش
 ❃∫صورتي
  •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م3' then
 if not Mod(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالادمنيه\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9742,11 +9745,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help3_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫اهلا بك عزيزي …
 ❃∫اوامر الوضع ~ اضف …
@@ -9764,14 +9767,15 @@ Text = [[
 ❃∫ وصف
 ❃∫ تكرار + عدد
  •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
- if text == 'م4' then
+
+if text == 'م4' then
 if not Mod(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالادمنيه\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9779,11 +9783,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help4_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫ اهلا بك عزيزي …
 ❃∫اوامر مسح / الحذف ← امر
@@ -9809,14 +9813,15 @@ Text = [[
 ❃∫ امر 
 ❃∫ الاوامر المضافه
 •━━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
- if text == 'م5' then
+
+if text == 'م5' then
 if not Mod(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالادمنيه\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9824,11 +9829,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help5_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫ اهلا بك عزيزي …
 ❃∫ اوامر تنزيل ورفع …
@@ -9858,14 +9863,15 @@ Text = [[
 ❃∫ تغير امر الاوامر
 ❃∫ تغير امر م1 ~ الئ م10
  •━━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م6' then
 if not Mod(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالادمنيه\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9873,11 +9879,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help6_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫اهلا بك عزيزي …
 ❃∫اوامر المجموعه …
@@ -9912,14 +9918,15 @@ Text = [[
 ❃∫الاوامر المضافه
 ❃∫قائمه المنع
 •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م7' then
 if not Mod(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالادمنيه\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9927,11 +9934,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help7_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫ الاوامر التحشيش …
 •━━━━━━━━━━━━━•ٴ
@@ -9970,14 +9977,15 @@ Text = [[
 ❃∫رفع + تنزيل ← الحاته
 ❃∫تاك للحاتات
 •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م8' then
 if not Sudo(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بمطور\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالمطورين\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -9985,11 +9993,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help8_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫اوامر المطورين 
  •━━━━━━━━━━━━━•ٴ
@@ -10002,14 +10010,15 @@ Text = [[
 ❃∫اذاعه 
 ❃∫ردود المطور 
  •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م9' then
 if not Sudo(msg) then
-send(msg.chat_id_, msg.id_,'❃∫ هاذا الامر خاص بالمطور الاساسي\n❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالمطورين\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
 return false
 end
 if AddChannel(msg.sender_user_id_) == false then
@@ -10017,11 +10026,11 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'❃∫ لا تستطيع استخدام البوت \n❃∫ يرجى الاشتراك بالقناه اولا \n❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
-local help_text = database:get(bot_id..'help9_text')
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫اهلا بك عزيزي √
 ❃∫اوامر مطور الاساسي...↓
@@ -10085,13 +10094,27 @@ Text = [[
 ❃∫تنظيف المشتركين
 ❃∫تنظيف الكروبات
 •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == 'م10' then
-local help_text = database:get(bot_id..'help10_text')
+if not Mod(msg) then
+send(msg.chat_id_, msg.id_,' ❃∫ هاذا الامر خاص بالادمنيه\n ❃∫ ارسل {م10} لعرض اوامر الاعضاء')
+return false
+end
+if AddChannel(msg.sender_user_id_) == false then
+local textchuser = database:get(bot_id..'text:ch:user')
+if textchuser then
+send(msg.chat_id_, msg.id_,'['..textchuser..']')
+else
+send(msg.chat_id_, msg.id_,' ❃∫ لا تستطيع استخدام البوت \n  ❃∫ يرجى الاشتراك بالقناه اولا \n  ❃∫ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+end
+return false
+end
+local help_text = database:get(bot_id..'help_text')
 Text = [[
 ❃∫اهلا بك عزيزي √
 ❃∫اوامر الاعضاء كتالي…↓
@@ -10120,11 +10143,12 @@ Text = [[
 ❃∫شنو رئيك بهاي بالرد
 ❃∫تحب هذا
 •━━━━━━━━━━━━━•ٴ
-彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢
+彡 .[TRIGO 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KOO_KO)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
 end
+
 if text == "تعطيل الزخرفه" and Manager(msg) then
 send(msg.chat_id_, msg.id_, '❃∫ تم تعطيل الزخرفه')
 database:set(bot_id.." amir:zhrf_Bots"..msg.chat_id_,"close")
