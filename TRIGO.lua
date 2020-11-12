@@ -10175,10 +10175,10 @@ database:set(bot_id.." amir:brj_Bots"..msg.chat_id_,"open")
 end
 if text and text:match("^برج (.*)$") and database:get(bot_id.." amir:brj_Bots"..msg.chat_id_) == "open" then
 local Textbrj = text:match("^برج (.*)$")
-gk = https.request('https://armoff99.ml/Api/Yhya.ArMoF.Aprag.Api.php?text='..URL.escape(Textbrj)..'')
+gk = https.request('https://armoff99.ml/Api/Yhya.ArMoF.Aprag.Api.php?text='..Textbrj..'')
 br = JSON.decode(gk)
 i = 0
-for k,v in pairs(br) do
+for k,v in pairs(br.ok) do
 i = i + 1
 t = v.."\n"
 end
@@ -10198,10 +10198,10 @@ database:set(bot_id.." amir:age_Bots"..msg.chat_id_,"open")
 end
 if text and text:match("^احسب (.*)$") and database:get(bot_id.." amir:age_Bots"..msg.chat_id_) == "open" then
 local Textage = text:match("^احسب (.*)$")
-ge = https.request('https://hsony991.ml/hsapamr.php?text='..URL.escape(Textage)..'')
+ge = https.request('https://hsony991.ml/hsapamr.php?text='..Textage..'')
 ag = JSON.decode(ge)
 i = 0
-for k,v in pairs(ag) do
+for k,v in pairs(ag.ok) do
 i = i + 1
 t = v.."\n"
 end
