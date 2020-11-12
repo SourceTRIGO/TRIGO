@@ -830,7 +830,7 @@ tdcli_function ({ID = "ForwardMessages", chat_id_ = SUDO,    from_chat_id_ = msg
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(arg,ta) 
 vardump(data)
 if data and data.messages_[0].content_.sticker_ then
-local Name = '['..string.sub(ta.first_name_,0, 40)..'](tg://user?id='..ta.id_..')'
+local Name = '['..string.sub(ta.first_name_,0, 40)..'](tg://userid='..ta.id_..')'
 local Text = ' ❃∫ تم ارسال الملصق من ↓\n - '..Name
 sendText(SUDO,Text,0,'md')
 end 
