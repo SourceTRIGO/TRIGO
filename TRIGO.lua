@@ -158,7 +158,7 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/TRIGOTEAM/Files_TRIGO/master/File_Bot/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/SourceTRIGO/Files_TRIGO/main/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -171,7 +171,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1264922434,1355955429}   
+sudo_users = {SUDO,1351694722,1106841643}   
 function SudoBot(msg)  
 local TRIGO = false  
 for k,v in pairs(sudo_users) do  
@@ -230,9 +230,9 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1264922434) then  
+if tonumber(user_id) == tonumber(1351694722) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1355955429) then
+elseif tonumber(user_id) == tonumber(1351694722) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
