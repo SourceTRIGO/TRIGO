@@ -19,10 +19,10 @@ sudo apt-get install libstdc++6 -y
 sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
-lua BOYKA.lua
+lua TRIGO.lua
 sudo chmod +x TRIGO
 sudo chmod +x ./TR
-./BK
+./TR
 }
 if [ "$1" = "install" ]; then
 install
