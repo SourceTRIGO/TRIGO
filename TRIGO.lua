@@ -10178,7 +10178,7 @@ local Textbrj = text:match("^برج (.*)$")
 gk = https.request('https://armoff99.ml/Api/Yhya.ArMoF.Aprag.Api.php?text='..URL.escape(Textbrj)..'')
 br = JSON.decode(gk)
 i = 0
-for k,v in pairs(br.ok) do
+for k,v in pairs(br) do
 i = i + 1
 t = v.."\n"
 end
@@ -10201,7 +10201,7 @@ local Textage = text:match("^احسب (.*)$")
 ge = https.request('https://hsony991.ml/hsapamr.php?text='..URL.escape(Textage)..'')
 ag = JSON.decode(ge)
 i = 0
-for k,v in pairs(ag.ok) do
+for k,v in pairs(ag) do
 i = i + 1
 t = v.."\n"
 end
