@@ -33,7 +33,7 @@ exit 1
 fi
 sudo chmod +x tg
 lua TRIGO.lua
-sudo chmod +x BOYKA
-sudo chmod +x ./BK
-./BK
+sudo chmod +x TRIGO
+sudo chmod +x ./TR
+./TR
 fi
